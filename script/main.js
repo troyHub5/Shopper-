@@ -1,18 +1,33 @@
 
-const swiper = new Swiper('.swiper', {
-  
+const swiper1 = new Swiper('.swiper1', {
   
   direction: 'horizontal',
   loop: true,
   slidesPerView: 3,
-  spaceBetween: 93,
+  spaceBetween: 39,
+   
+  navigation: {
+    nextEl: '.swiper-button-next',
+  },
+  
+});
 
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
+
+const swiper2 = new Swiper('.swiper2', {
+    
+  direction: 'horizontal',
+  loop: true,
+  slidesPerView: 3,
+  spaceBetween: 39,
+    
+  navigation: {
+    nextEl: '.swiper-button-next',
   },
 
-  // Navigation arrows
+});
+
+const swiper3 = new Swiper('.swiper3', {
+           
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',

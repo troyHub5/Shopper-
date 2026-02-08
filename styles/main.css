@@ -230,7 +230,7 @@
     justify-content: center;
     align-items: center;
     gap: 54px;
-    margin-bottom: 99px;
+    margin-bottom: 92px;
 }
 
 .ellips {
@@ -259,14 +259,13 @@
     color: #000;
 }
 
-.slider1 {
-    margin-bottom: 30px;
+.sellers {
+    margin-bottom: 130px;
 }
 
 .swiper__wrapper {
     width: stretch;
     height: 600px;
-    margin-bottom: 100px;
 }
 
 .swiper__image {
@@ -276,18 +275,66 @@
     border-radius: 15px;
     padding-top: 13px;
     margin-inline: auto;
+    margin-bottom: 29px;
+}
+
+
+.swiper__image3 {
+    width: 361px;
+    height: 438px;
+    background-color: #ECFEF4;
+    border-radius: 15px;
+    padding-top: 13px;
+    margin-inline: auto;
+    margin-bottom: 29px;
 }
 
 .circle-green {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     width: 100px;
     height: 100px;
     background-color: var(--color-primary);
     border-radius: 50%;
     margin-left: 242px;
-    padding-top: 40px;
+    padding-top: 32px;
     position: absolute;
     z-index: 2;
+}
+
+.circle-violet {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: #845EC2;
+    border-radius: 50%;
+    margin-left: 242px;
+    padding-top: 32px;
+    position: absolute;
+    z-index: 2;
+}
+
+.circle-violet > p {
+    text-align: center;
+    font-family: 'Monserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1;
+    letter-spacing: 0;
+    color: #fff;
+    width: 70px;
+}
+    
+.circle-green > p {
+    text-align: center;
+    font-family: 'Monserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1;
+    letter-spacing: 0;
+    color: #fff;
+    width: 70px;
 }
 
 .headphone__btn {
@@ -297,6 +344,12 @@
     background-color: var(--color-primary);
     border-radius: 10px;
     margin-inline: auto;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 1.31rem;
+    color: #fff;
+    line-height: 1;
+    letter-spacing: 0;
 } 
 
 .headphone1 {
@@ -315,6 +368,17 @@
     padding-left: 52px;
 }
 
+.headphone__description3 {
+    width: 319px;
+    height: 164px;
+    border-radius: 15px;
+    background-color: var(--color-white);
+    margin-inline: auto;
+    padding-top: 31px;
+    padding-left: 52px;
+    margin-top: -5px;
+}
+
 .headphone__model {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -330,13 +394,329 @@
     gap: 13px;
     align-items: center;
 }
+
+.stars__reviews {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 3.1;
+    letter-spacing: 0;
+    color: #888;
+    padding-top: 6.5px;
+}
+
+.price {
+    font-family: 'Motserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.31rem;
+    line-height: 1;
+    color: var(--color-black);
+}
    
 .swiper__image2 {
     width: 361px;
     height: 438px;
     background-color: #C9F2FF;
     border-radius: 15px;
+    padding-top: 7px;
+    margin-inline: auto;
+    margin-bottom: 29px;
+}
+
+.headphone2 {
+    margin-left: 60px;
+    margin-bottom: 8px;
+}
+
+.swiper__image3 {
+   width: 361px;
+    height: 438px;
+    background-color: #E5D5FF;
+    border-radius: 15px;
     padding-top: 13px;
+    margin-inline: auto;
+    margin-bottom: 29px; 
+}
+
+.headphone3 {
+    margin-left: 56px;
+    
+}
+
+.earphones {
+    margin-bottom: 130px; 
+}
+
+.earphones__title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2.8rem;
+    line-height: 1;
+    letter-spacing: 0;
+    color: var(--color-black);
+    margin-bottom: 55px;
+}
+
+.earphones__link-box {
+    display: flex;
+    gap: 65px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 92px;
+}
+
+.earphones__ellips {
+    width: 177px;
+    height: 91px;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    text-align: center;
+}
+
+.earphones__ellips p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 90px;
+    color: var(--color-white);
+}
+
+.earphones__link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.7rem;
+    line-height: 1;
+    letter-spacing: 0;
+    color: #000;
+}
+
+.swiper__image-1a {
+    width: 361px;
+    height: 438px;
+    background-color: #E0EFFF;
+    border-radius: 15px;
+    padding-top: 13px;
+    margin-inline: auto;
+    margin-bottom: 29px;
+}
+
+
+.earphone1 {
+    margin-left: 85px;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+.swiper__image-2a {
+    width: 361px;
+    height: 438px;
+    background-color: #E8F9FF;
+    border-radius: 15px;
+    padding-top: 13px;
+    margin-inline: auto;
+    margin-bottom: 29px;
+}
+
+.swiper__image-3a {
+    width: 361px;
+    height: 438px;
+    background-color: #D3FBFB;
+    border-radius: 15px;
+    padding-top: 13px;
+    margin-inline: auto;
+    margin-bottom: 29px;
+}
+
+.circle-blue p {
+    text-align: center;
+    font-family: 'Monserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1;
+    letter-spacing: 0;
+    color: #fff;
+    width: 70px;
+}
+
+.circle-blue {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: #08BDbe;
+    border-radius: 50%;
+    margin-left: 242px;
+    padding-top: 32px;
+    position: absolute;
+    z-index: 2;
+}
+
+.earphone3 {
+    margin-left: 56px;
+}
+
+.earphones {
+    margin-bottom: 130px;
+}
+
+.airdrop__title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2.8rem;
+    color: var(--color-black);
+    line-height: 1;
+    letter-spacing: 0;
+    margin-bottom: 120px;
+}
+
+.slide1 {
+    display: flex;
+    width: stretch;
+    height: 591px;
+    background-color: #845EC2;
+    padding-left: 124px;
+}
+
+.airdrop__group-foto {
+    height: stretch;
+    padding-top: 62px;
+}
+
+.next3 {
+    margin-right: 63px;
+}
+
+.prev3 > img {
+    margin-left: 60px; 
+}
+
+.airdrop__content {
+    width: 630px;
+    padding-top: 73px;
+    padding-left: 82px;
+}
+
+.slide-airdrop__title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 3.9rem;
+    color: var(--color-white);
+    margin-bottom: 29px;
+    letter-spacing: 0;
+    line-height: 1;
+}
+
+.slide-airdrop__subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.2;
+    letter-spacing: 0;
+    color: var(--color-white);
+    margin-bottom: 24px;
+}
+
+.airdrop__price {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.7;
+    color: var(--color-white);
+    margin-bottom: 50px;
+}
+
+.multicolor-circles {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.airdrop__black-circle {
+    content: "";
+    width: 43px;
+    height: 43px;
+    background-color: #000;
+    border-radius: 50%;
+    border: 1px solid #FF0000
+}
+
+.airdrop__yellow-circle {
+    content: "";
+    width: 43px;
+    height: 43px;
+    background-color: #FFF500;
+    border-radius: 50%;
+}
+
+.airdrop__blue-circle {
+    content: "";
+    width: 43px;
+    height: 43px;
+    background-color: #4484FF;
+    border-radius: 50%;
+}
+
+.airdrop__link {
+    display: flex;
+    align-items: center;
+    gap: 77px;
+}
+
+.airdrop__btn {
+    width: 303px;
+    height: 70px;
+    background-color: var(--color-primary);
+    border-radius: 10px;
+    box-shadow: 0 25px 50px rgba(255, 255, 255, 0.1);
+    font-family: 'Montserat', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1;
+    color: var(--color-white);
+}
+
+.airdrop__link a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1;
+    letter-spacing: 0;
+    color: var(--color-white);
+}
+
+.footer {
+    width: stretch;
+    height: 665px;
+    padding-top: 130px;
+}
+
+.footer__wrapper {
+    width: 1068px;
+    height: 405px;
     margin-inline: auto;
 }
 
+.footer__start {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer__start-text {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 1;
+    letter-spacing: -0.3px;
+    color: #111;
+}
+
+.footer__start-btn {
+    width: 175px;
+    height: 50px;
+    background-color: var(--color-primary);
+}
