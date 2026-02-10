@@ -56,10 +56,18 @@
 }
 
 @font-face {
-    font-family: 'Open sans';
+    font-family: 'DM Sans';
     src: url(../fonts/DMSans18pt-Regular.woff) format('woff');
     src: url(../fonts/DMSans18pt-Regular.woff2)format('woff2');
     font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url(../fonts/DMSans24pt-Bold.woff) format('woff');
+    src: url(../fonts/DMSans24pt-Bold.woff2) format('wof2');
+    font-weight: bold;
     font-display: swap;
 }
 
